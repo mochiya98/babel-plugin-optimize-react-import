@@ -1,0 +1,1 @@
+import * as Hoge from "react";

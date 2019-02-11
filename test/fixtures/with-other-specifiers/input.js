@@ -1,0 +1,1 @@
+import Hoge, { Foo, Bar } from "react";

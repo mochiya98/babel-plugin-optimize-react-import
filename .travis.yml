@@ -1,0 +1,17 @@
+git:
+  depth: 1
+language: node_js
+node_js:
+  - "stable"
+  - "lts/*"
+cache:
+  directories:
+    - "node_modules"
+before_install:
+  - npm set progress false
+after_success:
+  - npm i --save-dev coveralls
+  - cat ./coverage/lcov.info | npx coveralls
+branches:
+  only:
+    - master
