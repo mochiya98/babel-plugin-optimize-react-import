@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-optimize-react-import",
-  "version": "1.0.2",
-  "description": "your bundle make a little smaller",
+  "version": "1.0.3",
+  "description": "reduce your bundle size",
   "keywords": [
     "babel-plugin"
   ],
